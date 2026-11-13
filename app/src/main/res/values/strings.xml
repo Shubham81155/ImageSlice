@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ImageSlice</string>
+    <string name="select_image">Select Image from Gallery</string>
+    <string name="view_selected">View Selected Box</string>
+    <string name="back">Back</string>
+    <string name="rows_label">Rows (horizontal sections): %1$d</string>
+    <string name="cols_label">Columns (vertical sections): %1$d</string>
+    <string name="hint_pick">Pick an image to begin</string>
+    <string name="hint_tap_box">Tap a box to select it</string>
+    <string name="hint_selected">Box selected — tap another or view it</string>
+    <string name="load_failed">Could not load the image</string>
+    <string name="crop_info">Box: row %1$d, column %2$d (grid %3$d × %4$d) — %5$d × %6$d px</string>
+    <string name="cropped_desc">Cropped portion of the selected image</string>
+</resources>

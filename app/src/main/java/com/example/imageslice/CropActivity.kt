@@ -19,7 +19,8 @@ class CropActivity : AppCompatActivity() {
         setContentView(R.layout.activity_crop)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.cropRoot)) { v, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+            val pad = (16 * resources.displayMetrics.density).toInt()
+            v.setPadding(bars.left + pad, bars.top + pad, bars.right + pad, bars.bottom + pad)
             insets
         }
 
